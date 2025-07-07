@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', system-ui;
+    color: #243e63;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.row__narrow {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 96px 0;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+section {
+    padding: 0 32px;
+}
+
+main {
+    margin-bottom: 96px;
+}
+
+/* 
+NAVBAR ↓
+*/
+
+nav {
+    display: flex;
+    padding-top: 32px;
+}
+
+.nav__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    padding-bottom: 4px;
+    font-size: 24px;
+    font-weight: 900;
+
+}
+
+.nav__logo--img {
+    width: 40px;
+    height: 40px;
+    margin: 0 12 0 0;
+}
+
+
+/* 
+HEADER / ABOUT US ↓
+*/
+header {
+    position: relative;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* 
+FEATURES ↓
+*/
+
+#features {
+    position: relative;
+}
+
+#features .row__narrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 
+QUALITY WORK ↓
+*/
+#quality {
+    position: relative;
+}
+
+#quality .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box__relative {
+    position: relative;
+}
+/* 
+STEPS ↓
+*/
+
+#steps {
+    position: relative;
+}
+#steps .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 
+VALUES ↓
+*/
+
+#values .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*
+PRICING ↓
+*/
+
+#pricing {
+    position: relative;
+}
+
+/* 
+TESTIMONIALS ↓
+*/
+
+#testimonials .row {
+    display: flex;
+}
+
+/* 
+START / CALL TO ACTION ↓
+*/
+
+
+#start .row {
+    position: relative;
+    overflow: hidden;
+}
+
+/* 
+FOOTER ↓
+*/
+
+footer {
+    padding: 96px 32px;
+    background-color: rgb(100, 21, 255);
+    margin-bottom: -32px;
+    position: relative;
+    overflow: hidden;
+}
+
